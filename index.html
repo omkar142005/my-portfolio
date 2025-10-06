@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+
+  <!--Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">Portfolio..</h1>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+      <li><a href=".logo">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Hello, I'm Omkar Arsul</h2>
+    <p>Computer Science & Engineering student | Web Developer</p>
+    <img src="port-removebg-preview.png" alt="Image Not found" id="i1">
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="Pimg2.jpg" alt="Image Not found" id="i2">
+    <h4 class="exp">FRESHER | COMPUTER SCIENCE & ENGINEERING (DATA SCIENCE)</h4>
+    <p>
+      I am Omkar Arsul, a passionate Computer Science & Engineering student with strong skills in
+      <b>Web Development, JavaScript, and Java</b>.
+      I enjoy building creative, responsive, and user-friendly websites.
+      My goal is to become a professional software developer and contribute to impactful projects.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>Secondary School (SSC)</h3>
+      <span>2020 – 2021 | SMVS High School</span>
+      <p> MARKS: 90.20% <br>Strong foundation in Mathematics and Science.</p>
+    </div>
+    <div class="edu-item">
+      <h3>Higher Secondary (Science)</h3>
+      <span>2022 – 2023 | SaklshalPimpri Junior College</span>
+      <p> MARKS: 83.00% <br>Focused on Mathematics and Computer Science.</p>
+    </div>
+    <div class="edu-item">
+      <h3>Bachelor of Engineering (CSE-DS)</h3>
+      <span>2023 – 2027 | SRTTC Engineering College</span>
+      <p>ONGOING <br>Focus on Web Development and Programming.</p>
+    </div>
+  </section>
+  <!--Projects-->
+  <!-- Skills -->
+  <section id="skills">
+    <h1>Skills</h1>
+    <h2>Technical Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Advanced</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Advanced</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Intermediate</p>
+      </div>
+      <div class="skill-card">
+        <h3>Java</h3>
+        <p>Intermediate</p>
+      </div>
+      <div class="skill-card">
+        <h3>C & C++</h3>
+        <p>Intermediate</p>
+      </div>
+      <div class="skill-card">
+        <h3>SQL</h3>
+        <p>Intermediate</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:60px;">Non-Technical Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>Teamwork</h3>
+        <p>Excellent</p>
+      </div>
+      <div class="skill-card">
+        <h3>Communication</h3>
+        <p>Strong</p>
+      </div>
+      <div class="skill-card">
+        <h3>Problem Solving</h3>
+        <p>Good</p>
+      </div>
+      <div class="skill-card">
+        <h3>Time Management</h3>
+        <p>Strong</p>
+      </div>
+      <div class="skill-card">
+        <h3>Leadership</h3>
+        <p>Strong</p>
+      </div>
+      <div class="skill-card">
+        <h3>Quick Learner</h3>
+        <p>Fast</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><i>"Let's connect and build something amazing together!"</i></p>
+    <div class="touch">
+      <h3>
+        <u>Phone No</u>: +91 9545054369 <br>
+        <u>Email</u>: <a href="mailto:omkararsul777@gmail.com" target="_blank">omkararsul777@gmail.com</a><br>
+        <u>LinkedIn</u>: <a href="https://www.linkedin.com/in/omkar-arsul-785595316/" target="_blank">Omkar Arsul</a>
+      </h3>
+    </div>
+    <div class="box">
+      <form action="https://formspree.io/f/mjkaopdb" method="post">
+      <input type="text" name="name" id="name" placeholder="Your Name"><br>
+      <input type="email" name="email" id="email" placeholder="Your Email"><br>
+      <textarea name="text" id="text" placeholder="Your Message"></textarea><br>
+      <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!--Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <!-- Smooth Scroll & Menu Toggle -->
+  <script>
+    $(document).ready(function () {
+      $("a").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          let hash = this.hash;
+          $("html, body").animate({
+            scrollTop: $(hash).offset().top - 70
+          }, 800);
+        }
+      });
+    });
+
+    function toggleMenu() {
+      document.querySelector(".nav-links").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
